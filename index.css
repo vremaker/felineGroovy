@@ -1,0 +1,136 @@
+/*
+* Name: Valerie Remaker
+* Date: November 1st 2018
+* Section: CSE 154 AD
+* This is the CSS for my webpage that displays memes and cat pics
+*/
+@import url('https://fonts.googleapis.com/css?family=Fascinate+Inline|Wire+One');
+
+html, body {
+  margin:0;
+  padding:0;
+  font-family: 'Wire One', sans-serif;
+  background-color: white;
+}
+
+header {
+  width: 100%;
+  align-items: center;
+  text-align: center;
+  background-color: rgba(190, 200, 239, 0.61);
+  padding-top: 3%;
+  padding-bottom: 2%;
+
+}
+
+main , footer {
+  margin: auto;
+  padding: 0;
+  width: 90%;
+
+}
+
+button  {
+  font-family:  'Wire One', sans-serif;
+  font-weight: bold;
+  font-size: 18pt;
+  width: 200px;
+  height: 40px;
+  margin: 10px;
+  background-color: rgba(190, 200, 239, 0.61);
+}
+
+button:hover {
+  background-color: pink;
+}
+
+header h1{
+  font-family: 'Fascinate Inline', cursive;
+  font-size: 40pt;
+  margin: 0;
+  padding: 0;
+}
+
+header h2 {
+  font-family: 'Wire One', sans-serif;
+  margin-top: -.5em;
+  margin-bottom: 0;
+  font-size: 20pt;
+}
+
+header img {
+  width: 3%;
+  height: 3%;
+}
+
+h3 {
+  font-size: 20pt;
+}
+
+img {
+  height:300px;
+  width: 300px;
+}
+
+.poop {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  margin: 40px;
+  padding: 40px;
+}
+
+.poop h3 {
+  font-size: 40px;
+  font-weight: 700;
+  margin: 10px;
+}
+
+.poop label {
+  padding: 10px;
+  font-weight: bold;
+  font-size: 25pt;
+  color: black;
+}
+
+.poop input {
+  height: 20px;
+  width: 20px;
+  margin: 0;
+}
+
+.poop button {
+  margin: 20px;
+}
+
+.btns {
+  display: flex;
+  flex-flow: row;
+  justify-content: space-around;
+}
+
+#content {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  margin: 0;
+  padding:0;
+}
+
+.displayMe {
+  width: 320px;
+  height: 400px;
+  margin: 10px;
+  margin-bottom: 30px;
+}
+
+footer {
+  font-family: "Wire One", sans-serif;
+  text-align: center;
+  font-size: 20pt;
+ }
+
+.hidden {
+  display: none;
+}
